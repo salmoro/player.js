@@ -36,5 +36,5 @@ jobs:
               with:
                   cmd: report-coverage
 
-            - name: Upload coverage reports to Codecov
+            - name: Upload coverage to Codecov
               uses: codecov/codecov-action@v3
